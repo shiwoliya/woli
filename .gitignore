@@ -1,0 +1,41 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local Git metadata used by this workspace
+repo-data/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+out/
+target/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Caches
+.cache/
+.parcel-cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Temporary files
+*.tmp
+*.temp
